@@ -63,4 +63,6 @@ print("Connection is closed. Client is off")  # пункт 2.vi выполнен
 
 # Закрываем главный серверный сокет
 sock.close()
-print("Server is off")  # пункт 2.vii выполнен
+logging.info("Server is off")  # пункт 2.vii выполнен
+logging.info('ByeBye!')
+
